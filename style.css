@@ -1,1 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    justify-items: end;
+    align-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.logo{
+    justify-self: center;
+    /* grid-column: 3/4; */
+}
+
+.logout{
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+}
+
+footer{
+    background-color: green;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
